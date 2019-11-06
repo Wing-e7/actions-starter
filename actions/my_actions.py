@@ -13,4 +13,4 @@ class MyAction(Action):
 
     def run(self, dispatcher, tracker, domain):
         # do something.
-        return [SlotSet("name","value")]
+        return []
